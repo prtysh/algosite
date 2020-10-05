@@ -1,0 +1,35 @@
+/* https://www.schemecolor.com/friction.php */
+
+.navbar {
+    background-color: #FFDFD3;
+}
+
+.bg-light {
+    background-color: #F9D194 !important;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        height:50px;
+    }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    height: 100vh;
+}
+
+.grid-item{
+    padding: 5rem;
+    font-size: 40px;
+}
+
+.grid-item-1{
+    background-color: #86C4BA;
+}
+
+.grid-item-2{
+    background-color: #E0ECB3;
+    color: #7C6050;
+}
