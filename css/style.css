@@ -1,5 +1,10 @@
 /* https://www.schemecolor.com/friction.php */
 
+body{
+  max-width: 900px;
+  margin: auto;
+}
+
 .navbar {
     background-color: #FFDFD3;
 }
@@ -15,21 +20,28 @@
 }
 
 .grid-container{
-    display: grid;
-    grid-template-columns: 1.5fr 2fr;
-    height: 100vh;
+  max-width: 900px;
+  margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 1.5fr 2fr; */
+    /* height: 100vh; */
 }
 
 .grid-item{
     padding: 5rem;
-    font-size: 40px;
+    font-size: 24px;
 }
 
 .grid-item-1{
-    background-color: #86C4BA;
+    /* background-color: #86C4BA; */
 }
 
 .grid-item-2{
-    background-color: #E0ECB3;
+    /* background-color: #E0ECB3; */
     color: #7C6050;
+}
+
+.site-footer{
+    display: none !important;
 }
