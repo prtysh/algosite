@@ -45,3 +45,16 @@ body{
 .site-footer{
     display: none !important;
 }
+
+
+
+#card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.data-card{
+    height: 300px;
+}
