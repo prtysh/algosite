@@ -12,7 +12,7 @@
 //       </div>
 
 
-Papa.parse("../assets/adms.csv", {
+Papa.parse("assets/2adms.csv", {
 
     download: true,
     header: true,
@@ -101,4 +101,3 @@ Papa.parse("../assets/adms.csv", {
 //     element.className = "verybold";
 
 // }
-
